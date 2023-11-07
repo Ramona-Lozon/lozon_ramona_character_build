@@ -1,4 +1,7 @@
 # lozon_ramona_character_build
+
+i chose to create a page for the main antagonists in the fallout video games starting from the early games onto the present titles, excluding the online game fallout 76.
+
 HW #2 – CHARACTER BUILD (CSS SELECTION AND STYLES)
 Assignment Description and Requirements
 Choose characters from a comic, movie or TV series. Use the Marvel class build; replace the existing logo with one that matches your
