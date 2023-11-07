@@ -118,14 +118,11 @@ article p, #instructions p {
     background-position: -750px 0;
 }
 
-/*the hover rule makes the image change when you hover over it*/
-/*you can string rules together in a line*/
-
 #master:hover, #horrigan:hover, #eden:hover, #house:hover, #caesar:hover, #father:hover {
     background-position-y: -150px;
 }
 
-/*---footer rules--*/
+/*footer*/
 footer {
     color: #FEF265;
     padding: 20px 0;
@@ -138,6 +135,8 @@ footer {
     height: 80px;
     background-color: #FEEED4;
 }
+
+/*lightboxes*/
 
 .lightbox {
     width: 100vw;
@@ -155,14 +154,17 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url(../images/horrigan_lightbox.png);
+    Background-image: url(../images/horrigan_lightbox.png);
+    background-size: 50vh;
+    background-position: 80px;
+
 }
 
 .lightbox_close {
     position: relative;
     top: 20px;
     left: 95%;
-    color: white;
+    color: #FEF265;
     font-size: 48px;
     text-decoration: none;
     font-weight: bolder;
@@ -170,7 +172,7 @@ footer {
 
 .lightbox_close:hover {
     opacity: 0.5;
-    color: red;
+    color: #82A7D6;
 }
 
 .lightbox article {
