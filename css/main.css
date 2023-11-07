@@ -27,20 +27,17 @@ header {
 
 #character_nav {
     background-color: #82A7D6;
-    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-image: url('../images/fallout_banner.jpg');
+    background-size: contain;
     background-repeat: none;
     background-blend-mode: hard-light;
 }
 
 .characters {
     list-style-type: none;
-
-    /*week 8 flexbox stuff*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*week 8 flexbox stuff*/
-
     padding: 0;
 }
 
@@ -50,11 +47,10 @@ header {
     background-color: #325886;
     text-align: left;
     cursor: pointer;
-
-    /*week 8 stuff*/
     transition: box-shadow 0.2s ease;
     box-shadow: 0 155px 0 0 #FEF265 inset;
 }
+
 .characters li:hover {
     box-shadow: 0 220px 0 0 #FEF265 inset;
 }
